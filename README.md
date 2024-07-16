@@ -1,7 +1,5 @@
 # Angular Gantt Chart App with Nextcloud Integration
 
-[Project Logo or Screenshot (Optional)]
-
 **A powerful web-based Gantt chart application built with Angular, Bryntum Gantt, and Node.js. Seamlessly plan, visualize, and track your projects with integrated Nextcloud file storage via WebDAV.**
 
 📊 **Key Features**
@@ -22,7 +20,7 @@
 
 2. **Installation:**
    ```bash
-   git clone https://your-repository-url.git
+   git clone https://github.com/AkshayPatil4/ganttchart-Web-app.git
    cd angular-gantt-app
    npm install
 Use code with caution.
