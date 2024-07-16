@@ -1,27 +1,50 @@
-# Ganttchart
+# Angular Gantt Chart App with Nextcloud Integration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+[Project Logo or Screenshot (Optional)]
 
-## Development server
+**A powerful web-based Gantt chart application built with Angular, Bryntum Gantt, and Node.js. Seamlessly plan, visualize, and track your projects with integrated Nextcloud file storage via WebDAV.**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+📊 **Key Features**
 
-## Code scaffolding
+* **Intuitive Gantt Chart Interface:** Drag-and-drop tasks, set dependencies, adjust timelines, and visualize project progress effortlessly.
+* **Nextcloud Integration:** Securely store and access your Gantt chart data directly in your Nextcloud instance.
+* **WebDAV Protocol:** Leverage the WebDAV protocol for seamless file synchronization and collaboration.
+* **Angular Framework:** Enjoy a modern, responsive, and maintainable front-end experience.
+* **Bryntum Gantt:** Utilize the robust Bryntum Gantt library for advanced scheduling and visualization capabilities.
+* **Node.js Backend:** Power the application's server-side logic and Nextcloud integration.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+🚀 **Getting Started**
 
-## Build
+1. **Prerequisites:**
+   * Angular CLI: `npm install -g @angular/cli`
+   * Node.js and npm: [https://nodejs.org/](https://nodejs.org/)
+   * Nextcloud instance with WebDAV enabled
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. **Installation:**
+   ```bash
+   git clone https://your-repository-url.git
+   cd angular-gantt-app
+   npm install
+Use code with caution.
 
-## Running unit tests
+Configuration:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Open src/environments/environment.ts and update the nextcloudBaseUrl and webdavPath properties with your Nextcloud details.
+Development Server:
 
-## Running end-to-end tests
+Bash
+ng serve
+Use code with caution.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Navigate to http://localhost:4200/ in your browser.
 
-## Further help
+🛠️ Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Angular
+Bryntum Gantt
+Node.js
+Express.js (or your preferred Node.js framework)
+WebDAV client library 
+Nextcloud
+
+
